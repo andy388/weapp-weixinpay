@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Xiadan</servlet-name>
+  	<display-name>Xiadan</display-name>
+  	<description></description>
+  	<servlet-class>com.weixinpay.Xiadan</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Sign</servlet-name>
+  	<display-name>Sign</display-name>
+  	<description></description>
+  	<servlet-class>com.weixinpay.Sign</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PayResult</servlet-name>
+  	<display-name>PayResult</display-name>
+  	<description></description>
+  	<servlet-class>com.weixinpay.PayResult</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetOpenId</servlet-name>
+  	<display-name>GetOpenId</display-name>
+  	<description></description>
+  	<servlet-class>com.weixinpay.GetOpenId</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Xiadan</servlet-name>
+  	<url-pattern>/xiadan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Sign</servlet-name>
+  	<url-pattern>/sign</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PayResult</servlet-name>
+  	<url-pattern>/PayResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetOpenId</servlet-name>
+  	<url-pattern>/GetOpenId</url-pattern>
+  </servlet-mapping>
+</web-app>
